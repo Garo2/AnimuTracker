@@ -1,0 +1,69 @@
+body {
+	background-color: #EDF1F5 !important;
+}
+
+.navButton:hover {
+	background-color: black;
+	width: fit-content;
+	border-radius: 5px;
+}
+
+.cardTextLine {
+	display: block;
+}
+
+.textCenter {
+	margin: auto;
+	text-align: center;
+}
+
+.trailerBox
+{
+    width: 40% !important;
+}
+
+.resultsImageDimensions{
+	border-radius: 34px !important;
+}
+
+.detailsImageDimensions{
+	border-radius: 20px !important;
+}
+
+.radiusDimensions{
+	width: 300px;
+	border-radius: 20px !important;
+}
+
+@media (max-width: 768px) { 
+    .trailerBox
+    {
+        width: 80% !important;
+    }
+}
+
+.animeListContainer {
+	width: 95%;
+}
+
+.popEffect:hover {
+	box-shadow: 0px 4px 4px 0px grey;
+    cursor: pointer;
+}
+
+.search{
+	
+	height: 63px;
+	margin-top: 10px;
+	position: center;
+	
+  }
+  .searchButton{
+	height: 47px !important;
+	padding-left: 10px;
+	border-radius: 10px !important;
+  }
+.searchInput{
+	font-size: large;
+	border-radius: 10px !important;
+}
